@@ -1,0 +1,44 @@
+product1_name, product1_price = 'Chips', 50.95
+product2_name, product2_price = 'Foundation', 598.99
+product3_name, product3_price = 'Book', 156.89
+
+
+company_name = 'Everyday, inc.'
+company_address = '123, kabir nagar'
+company_city = 'Jammu'
+
+
+message = 'Thank You for shopping with us today!'
+
+
+print('*' * 50)
+
+print(f'\t\t{company_name.title()}')
+print(f'\t\t{company_address.title()}')
+print(f'\t\t{company_city.title()}'.)
+
+
+print('=' * 50)
+
+print('\tProduct Name\tProduct Price')
+
+
+print(f'\t{product1_name.title()}\t\tRs.{product1_price}')
+print(f'\t{product2_name.title()}\tRs.{product2_price}')
+print(f'\t{product3_name.title()}\t\tRs.{product3_price}')
+
+
+print('=' * 50)
+
+print('\t\t\tTotal')
+
+total = product1_price + product2_price + product3_price
+print(f'\t\t\tRs.{Total}')
+
+print('=' * 50)
+
+
+print(f'\n\t{message}\n')
+
+
+print('*' * 50)
